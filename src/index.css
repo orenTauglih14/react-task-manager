@@ -1,0 +1,15 @@
+:root {
+  --ui-font: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--ui-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: inherit; }
+
+button { font-family: inherit; }
